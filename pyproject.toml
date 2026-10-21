@@ -1,0 +1,13 @@
+[project]
+name = "fastapi-pet"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.140.9",
+    "google-genai>=2.14.0",
+    "sqlalchemy>=2.0.51",
+    "uvicorn>=0.51.0",
+]
